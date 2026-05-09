@@ -24,3 +24,4 @@ jobs:
       
     - name: Report Coverage
       run: mvn clean test jacoco:report coveralls:report -DrepoToken=${{ secrets.COVERALLS_TOKEN }}
+    
